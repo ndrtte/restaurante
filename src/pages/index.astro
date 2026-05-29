@@ -59,11 +59,38 @@ import Mussels from "~/assets/images/mussels2.png";
     </Hero>
   </Section>
 
-  <WideImage
-    image={DecorativeImage}
-    alt="Just an image"
-    class:list={"aspect-video lg:aspect-[16/6]"}
-  />
+  <section class="relative">
+    <WideImage
+      image={DecorativeImage}
+      alt="Just an image"
+      class:list={"aspect-video lg:aspect-[16/6]"}
+    />
+
+    <div
+      class="absolute inset-0 bg-[#3B2A24]/50 flex flex-col items-center justify-center px-6"
+    >
+      <h2 class="font-black !text-white text-4xl mb-2">Horarios de atención</h2>
+      <p class="!text-[#D8B98A] font-medium mb-10">
+        Siempre listos para recibirte
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 w-full max-w-3xl">
+        <div
+          class="flex-1 bg-white/10 backdrop-blur-sm rounded-xl px-10 py-7 flex justify-between items-center"
+        >
+          <h3 class="!text-white font-bold text-lg">Lunes a Sábado</h3>
+          <p class="text-2xl font-black text-[#D8B98A]">07:00 — 21:00</p>
+        </div>
+
+        <div
+          class="flex-1 bg-white/10 backdrop-blur-sm rounded-xl px-10 py-7 flex justify-between items-center"
+        >
+          <h3 class="!text-white font-bold text-lg">Domingo</h3>
+          <p class="text-2xl font-black text-[#D8B98A]">08:00 — 15:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <Section class:list={"bg-white"}>
     <Heading>
