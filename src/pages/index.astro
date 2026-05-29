@@ -12,14 +12,15 @@ import WideImage from "~/components/WideImage.astro";
 import ReviewSlider from "~/components/ReviewSlider.astro";
 
 // Images
-import PizzaHero from "~/assets/images/pizza-hero.png";
-import Pizza from "~/assets/images/pizza.png";
-import Spaghetti from "~/assets/images/spaghetti.png";
-import Fish from "~/assets/images/fish.png";
-import DecorativeImage from "~/assets/images/pexels-shvetsa-5953523.jpg";
-import reviewAuthors from "~/assets/images/review-authors.png";
-import Dessert from "~/assets/images/dessert.png";
-import Mussels from "~/assets/images/mussels2.png";
+import PizzaHero from "~/assets/images/baleadas-hero.png";
+import Pizza from "~/assets/images/yuca-chicharron.png";
+import Spaghetti from "~/assets/images/sopa-caracol.png";
+import Fish from "~/assets/images/baleada-especial.png";
+import DecorativeImage from "~/assets/images/decorative-image.jpg";
+import reviewAuthors from "~/assets/images/review-authors.jpg";
+import Dessert from "~/assets/images/ayote-miel.png";
+import Mussels from "~/assets/images/pollo-chuco.png";
+import PlatoTipico from "~/assets/images/plato-tipico.png"
 ---
 
 <Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
@@ -209,7 +210,7 @@ import Mussels from "~/assets/images/mussels2.png";
       <div slot="hero-content-right">
         <Picture
           class:list={"mx-auto"}
-          src={PizzaHero}
+          src={PlatoTipico}
           height={600}
           formats={["avif", "webp"]}
           alt="A description of my image."
@@ -276,7 +277,7 @@ import Mussels from "~/assets/images/mussels2.png";
           <Picture
             src={reviewAuthors}
             alt="Review authors"
-            class="w-full h-auto"
+            class="w-full h-auto rounded-lg"
           />
         </div>
       </Hero>
