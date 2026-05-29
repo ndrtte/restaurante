@@ -1,55 +1,55 @@
 [
 	{
 		"id": 1,
-		"title": "pexels-adrienn",
+		"title": "restaurante",
 		"image": "/src/assets/images/gallery/fotografia-1.jpg",
 		"alt": "fotografia-restaurante"
 	},
 	{
 		"id": 2,
-		"title": "pexels-annija-mieze",
+		"title": "postre",
 		"image": "/src/assets/images/gallery/fotografia-2.jpg",
 		"alt": "cheesecake-maracuya"
 	},
 	{
 		"id": 3,
-		"title": "pexels-enginakyurt",
+		"title": "preparacion",
 		"image": "/src/assets/images/gallery/fotografia-3.jpg",
 		"alt": "preparacion-platillos"
 	},
 	{
 		"id": 4,
-		"title": "pexels-fariphotography",
+		"title": "gifiti",
 		"image": "/src/assets/images/gallery/fotografia-4.jpg",
 		"alt": "gifiti"
 	},
 	{
 		"id": 5,
-		"title": "pexels-narda-yescas",
+		"title": "combos",
 		"image": "/src/assets/images/gallery/fotografia-5.jpeg",
 		"alt": "combos-especiales"
 	},
 	{
 		"id": 6,
-		"title": "pexels-pixabay",
+		"title": "reunion",
 		"image": "/src/assets/images/gallery/fotografia-6.jpg",
 		"alt": "reunion-clientes"
 	},
 	{
 		"id": 7,
-		"title": "pexels-rachel-claire",
+		"title": "torrejas",
 		"image": "/src/assets/images/gallery/fotografia-7.jpg",
 		"alt": "torrejas-en-miel"
 	},
 	{
 		"id": 8,
-		"title": "pexels-vlah",
+		"title": "restaurante-remodelado",
 		"image": "/src/assets/images/gallery/fotografia-8.jpg",
-		"alt": "restaurante"
+		"alt": "restaurante-remodelado"
 	},
 	{
 		"id": 9,
-		"title": "pexels-wildlittlethingsphoto",
+		"title": "evento-boda",
 		"image": "/src/assets/images/gallery/fotografia-9.jpg",
 		"alt": "evento-boda"
 	}
