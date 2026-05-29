@@ -1,6 +1,6 @@
 // Global variables
-export const siteLang = "en-US";
-export const siteCurrency = "USD";
+export const siteLang = "es";
+export const siteCurrency = "HNL";
 export const siteDomain = "saboresdelvalle.com";
 export const siteName = "Sabores del Valle";
 export const siteSlogan = "El sabor de siempre, en cada mesa";
