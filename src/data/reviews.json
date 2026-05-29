@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"author": "Carlos Membreño",
+		"review": "La sopa de caracol me recordó a la de mi abuela en La Ceiba. Hacía años que no comía algo así de auténtico."
+	},
+	{
+		"id": 2,
+		"author": "Karla Santos",
+		"review": "El almuerzo típico es espectacular. Los frijoles, el queso, los plátanos fritos... todo en su punto. Ya es nuestro restaurante favorito en Tegucigalpa."
+	},
+	{
+		"id": 3,
+		"author": "Valentina Raudales",
+		"review": "Las baleadas del desayuno son un ritual para nosotros cada sábado. La tortilla recién hecha marca la diferencia."
+	},
+	{
+		"id": 4,
+		"author": "Diego Turcios",
+		"review": "El pollo chuco estaba perfecto, crujiente por fuera y jugoso por dentro. Las tajadas y el chimol lo complementan de maravilla."
+	},
+	{
+		"id": 5,
+		"author": "María José Aguilar",
+		"review": "Vine con unas amigas a probar la yuca con chicharrón y quedamos encantadas. El ambiente es acogedor y el servicio muy atento."
+	}
+]
