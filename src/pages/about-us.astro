@@ -2,18 +2,21 @@
 import Layout from "~/layouts/Layout.astro";
 import Section from "~/components/Section.astro";
 import Hero from "~/components/Hero.astro";
-import { Picture } from "astro:assets";
+import {Picture} from "astro:assets";
 import Badge from "~/components/Badge.astro";
 import Button from "~/components/Button.astro";
 import ButtonCallUs from "~/components/ButtonCallUs.astro";
-import Article from "~/components/Article.astro";
+import {Image} from 'astro:assets'
 
 // Images
 import PizzaHero from "~/assets/images/baleadas-hero.png";
+import About1 from "~/assets/images/ayote-miel.png";
+import About2 from  "~/assets/images/ayote-miel.png";
+import About3 from  "~/assets/images/ayote-miel.png";
 ---
 
 <Layout>
-  <Section class:list={"bg-white"}>
+  <section class:list={"bg-white pt-15 pb-10 px-30"}>
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
         <Badge title="El sabor hondureño de verdad" />
@@ -46,66 +49,118 @@ import PizzaHero from "~/assets/images/baleadas-hero.png";
         />
       </div>
     </Hero>
-  </Section>
+  </section>
 
-  <Section class:list={"bg-white"}>
-    <Article>
-      <h2>Bienvenido a Sabores del Valle</h2>
-      <p>
-        Ubicados en el corazón de Tegucigalpa, <strong>Sabores del Valle</strong
-        > ofrece una experiencia gastronómica hondureña auténtica como ninguna otra.
-        Desde el momento en que cruzas nuestras puertas, te envuelve el aroma de la
-        cocina de siempre, donde la buena comida y la compañía que importa son el
-        centro de todo.
-      </p>
+  <section class:list={"bg-white px-10 py-5"}>
+    <article
+      class="my-20 max-w-6xl mx-auto px-6 flex flex-col lg:flex-row gap-12 items-center"
+    >
+      <div class="w-full lg:w-1/2">
+        <h2 class="text-[#3B2A24]! font-black text-4xl mb-6">
+          Bienvenido a Sabores del Valle
+        </h2>
+        <p class="text-[#3B2A24] leading-relaxed mb-8">
+          Ubicados en el corazón de Tegucigalpa, <strong
+            >Sabores del Valle</strong
+          >
+          ofrece una experiencia gastronómica hondureña auténtica como ninguna otra.
+          Desde el momento en que cruzas nuestras puertas, te envuelve el aroma de
+          la cocina de siempre, donde la buena comida y la compañía que importa son
+          el centro de todo.
+        </p>
 
-      <h3>Nuestra Historia</h3>
-      <p>
-        Fundado en <em>2005</em>, nuestro restaurante familiar nació de una
-        cocina pequeña y un amor enorme por la comida de siempre. Inspirados en
-        las recetas que pasaron de mano en mano a través de generaciones,
-        llevamos la <u>rica herencia culinaria</u> de Honduras directamente a tu mesa.
-        Cada platillo cuenta una historia, y cada comida es una celebración del sabor
-        de nuestra tierra.
-      </p>
+        <h3 class="text-[#3B2A24]! font-black text-2xl mb-4">
+          Nuestra Historia
+        </h3>
+        <p class="text-[#3B2A24] leading-relaxed">
+          Fundado en <em>2005</em>, nuestro restaurante familiar nació de una
+          cocina pequeña y un amor enorme por la comida de siempre. Inspirados
+          en las recetas que pasaron de mano en mano a través de generaciones,
+          llevamos la <u>rica herencia culinaria</u> de Honduras directamente a tu
+          mesa. Cada platillo cuenta una historia, y cada comida es una celebración
+          del sabor de nuestra tierra.
+        </p>
+      </div>
 
-      <h3>Nuestra Filosofía</h3>
-      <blockquote>"Tradición, sabor y comida hecha como debe ser."</blockquote>
-      <p>
-        En Sabores del Valle nos enfocamos en preparar comida típica hondureña
-        con recetas tradicionales, ingredientes frescos y el sabor auténtico de
-        siempre. Sin excesos, solo buena comida hecha con cuidado.
-      </p>
+      <div class="w-full lg:w-1/2 grid grid-cols-2 gap-3">
+        <Image
+          src={About1}
+          alt="Sabores del Valle"
+          class="rounded-2xl object-cover w-full h-64 col-span-2"
+        />
+        <Image
+          src={About2}
+          alt="Nuestro equipo"
+          class="rounded-2xl object-cover w-full h-44"
+        />
+        <Image
+          src={About3}
+          alt="Nuestra cocina"
+          class="rounded-2xl object-cover w-full h-44"
+        />
+      </div>
+    </article>
+  </section>
 
-      <h4>¿Qué Nos Hace Especiales?</h4>
-      <ul>
-        <li>
-          <strong>Sabor Catracho:</strong> Recetas tradicionales hondureñas preparadas
-          con el sabor de siempre.
-        </li>
-        <li>
-          <strong>Ingredientes Frescos:</strong> Verduras, carnes y productos seleccionados
-          diariamente para mantener la calidad en cada plato.
-        </li>
-        <li>
-          <strong>Comida Casera:</strong> Tortillas recién hechas, frijoles cocidos
-          a fuego lento y platillos preparados al momento.
-        </li>
-        <li>
-          <strong>Ambiente Familiar:</strong> Un espacio cómodo y cercano para compartir
-          buena comida y buenos momentos.
-        </li>
-      </ul>
+  <article class="my-30 text-center mx-auto px-6  justify-center">
+    <h3 class="text-[#3B2A24] text-3xl font-black">Nuestra Filosofía</h3>
+    <blockquote class="my-4 text-[#A65A3A] text-xl italic font-medium">
+      "Tradición, sabor y comida hecha como debe ser."
+    </blockquote>
+    <p class="text-[#3B2A24] text-2xl max-w-2xl mx-auto leading-relaxed">
+      En Sabores del Valle nos enfocamos en preparar comida típica hondureña con
+      recetas tradicionales, ingredientes frescos y el sabor auténtico de
+      siempre. Sin excesos, solo buena comida hecha con cuidado.
+    </p>
 
-      <h3>Visítanos</h3>
-      <p>
-        Ya sea para compartir en familia, disfrutar un almuerzo típico o
-        simplemente quitarse el antojo de buena comida hondureña, <strong
-          >Sabores del Valle</strong
-        >
-        siempre tiene un lugar en la mesa para ti.
-        <em>Buen sabor, ambiente familiar y comida hecha como en casa.</em>
-      </p>
-    </Article>
-  </Section>
+    <div class="flex flex-col sm:flex-row my-12 items-center">
+      <div class="bg-white/60 rounded-2xl px-8 py-10 w-1/2 mx-10 sm:w-1/2">
+        <h3 class="text-[#A65A3A]! font-black mb-4">Misión</h3>
+        <p class="text-[#3B2A24] leading-relaxed! text-xl">
+          Ofrecer una experiencia gastronómica auténtica que celebre la cocina
+          hondureña, preparando cada platillo con ingredientes frescos, recetas
+          de siempre y el cuidado que merece cada persona que se sienta en
+          nuestra mesa.
+        </p>
+      </div>
+
+      <div class="bg-white/60 rounded-2xl px-8 py-10 w-1/2 mx-10 sm:w-1/2">
+        <h3 class="text-[#A65A3A]! font-black mb-4">Visión</h3>
+        <p class="text-[#3B2A24] leading-relaxed text-xl">
+          Ser el restaurante de referencia en Honduras para quienes buscan
+          sabores genuinos, convirtiéndonos en un espacio donde la tradición
+          culinaria hondureña se preserve y se comparta con orgullo.
+        </p>
+      </div>
+    </div>
+  </article>
+
+  <article class="max-w-5xl mx-auto px-6 py-16">
+    <div class="flex flex-col lg:flex-row gap-10 items-center">
+      <div class="w-full lg:w-1/2">
+        <h3 class="text-[#3B2A24]! font-black text-3xl mb-4">Visítanos</h3>
+        <p class="text-[#3B2A24] text-lg leading-relaxed mb-6">
+          Ya sea para compartir en familia, disfrutar un almuerzo típico o
+          simplemente quitarse el antojo de buena comida hondureña, <strong
+            >Sabores del Valle</strong
+          >
+          siempre tiene un lugar en la mesa para ti.
+          <em>Buen sabor, ambiente familiar y comida hecha como en casa.</em>
+        </p>
+        <p class="text-[#A65A3A] font-semibold">
+          Colonia Palmira, Calle República de México #47, Tegucigalpa, Honduras
+        </p>
+      </div>
+
+      <div class="w-full lg:w-1/2 rounded-2xl overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1!2d-87.1940042!3d14.102032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sColonia+Palmira%2C+Tegucigalpa!5e0!3m2!1ses!2shn!4v1"
+          width="100%"
+          height="350"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  </article>
 </Layout>
