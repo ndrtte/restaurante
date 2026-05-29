@@ -1,374 +1,409 @@
 [
-  {
-    "id": 1,
-    "slug": "entradas",
-    "prettyName": "Entradas",
-    "description": "Comienza tu experiencia con una de nuestras entradas, pequeños bocados con todo el sabor de Honduras.",
-    "plates": [
-      {
-        "name": "Anafre Hondureño",
-        "description": "Frijoles refritos con chorizo y mantequilla servidos en anafre de barro, acompañado de totopos y tortillas de maíz recién hechas.",
-        "price": 180
-      },
-      {
-        "name": "Ceviche de Camarón",
-        "description": "Camarones frescos marinados en limón con cebolla morada, culantro, tomate y chile. Servido con tostadas crujientes.",
-        "price": 195
-      },
-      {
-        "name": "Tabla de Quesos Artesanales",
-        "description": "Selección de quesos hondureños artesanales con jaleas de frutas tropicales, pan tostado y miel de caña.",
-        "price": 210
-      },
-      {
-        "name": "Camarones al Ajillo",
-        "description": "Camarones salteados en mantequilla, ajo y vino blanco, servidos con pan rústico para acompañar la salsa.",
-        "price": 225
-      },
-      {
-        "name": "Cóctel de Camarones",
-        "description": "Camarones frescos en salsa rosada con aguacate, cebolla morada, culantro y limón. Servido frío con tostadas crujientes.",
-        "price": 195
-      },
-      {
-        "name": "Sopa de Tortilla",
-        "description": "Caldo suave con tiras de tortilla tostada, crema, queso seco, aguacate y chile pasilla. Reconfortante y llena de sabor.",
-        "price": 150
-      },
-      {
-        "name": "Montaditos de Baleada Gourmet",
-        "description": "Mini baleadas de harina artesanal rellenas de frijoles negros, queso brie, jamón serrano y un toque de miel de caña.",
-        "price": 175
-      },
-      {
-        "name": "Enchiladas Hondureñas",
-        "description": "Tortillas fritas cubiertas de carne molida, ensalada fresca, queso rallado, crema y salsa de tomate casera.",
-        "price": 160
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "slug": "ensaladas",
-    "prettyName": "Ensaladas",
-    "description": "Frescura y sabor en cada tenedor. Ensaladas preparadas con ingredientes de temporada y aderezos caseros.",
-    "plates": [
-      {
-        "name": "Caesar Salad",
-        "description": "Lechuga romana crocante con queso parmesano, crutones dorados y aderezo caesar casero.",
-        "price": 145
-      },
-      {
-        "name": "Ensalada de Aguacate y Tomate",
-        "description": "Aguacate maduro, tomate fresco, cebolla morada, culantro y limón. Simple, fresca y completamente hondureña.",
-        "price": 130
-      },
-      {
-        "name": "Ensalada Tropical",
-        "description": "Mix de hojas verdes con mango, piña, zanahoria rallada, semillas de ajonjolí y aderezo de maracuyá.",
-        "price": 150
-      },
-      {
-        "name": "Ensalada de Palmito",
-        "description": "Palmito en láminas con tomate cherry, pepino, aceitunas y vinagreta de limón y hierbas frescas.",
-        "price": 160
-      },
-      {
-        "name": "Ensalada Caprese",
-        "description": "Mozzarella fresca, tomate y albahaca con reducción de balsámico y aceite de oliva.",
-        "price": 155
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "slug": "Sopas",
-    "prettyName": "Sopas",
-    "description": "Sopas preparadas a fuego lento con ingredientes frescos y recetas de toda la vida. El tipo de plato que reconforta el alma.",
-    "plates": [
-      {
-        "name": "Sopa de Res",
-        "description": "Caldo de res cocinado a fuego lento con papa, yuca, elote, güisquil y hierbas frescas. Servida con tortillas de maíz y chile al lado.",
-        "price": 175
-      },
-      {
-        "name": "Sopa de Caracol",
-        "description": "Sopa tradicional de la costa hondureña con caracol, leche de coco, yuca y plátano. Cremosa, profunda y reconfortante.",
-        "price": 210
-      },
-      {
-        "name": "Capirotada Hondureña",
-        "description": "Sopa tradicional hondureña preparada con tortitas de queso y huevo cocidas en un caldo de tomate y especias, acompañada de papa, yuca, repollo y hierbas frescas. Casera, abundante y llena de sabor.",
-        "price": 165
-      },
-      {
-        "name": "Sopa Marinera",
-        "description": "Caldo de mariscos con camarones, pescado, almejas y cangrejo, cocinado con tomate, culantro y leche de coco.",
-        "price": 225
-      },
-      {
-        "name": "Sopa de Pollo",
-        "description": "Caldo suave de pollo con papa, zanahoria, elote, apio y hierbas frescas. La sopa que cura cualquier cosa.",
-        "price": 155
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "slug": "platos-principales",
-    "prettyName": "Platos Principales",
-    "description": "Platos preparados con ingredientes frescos y recetas de siempre, el corazón de nuestra cocina hondureña.",
-    "plates": [
-      {
-        "name": "Pollo Chuco",
-        "description": "Piezas de pollo frito y crujiente servidas sobre tajadas de plátano, acompañadas de encurtido, chimol fresco y aderezo de mayonesa.",
-        "price": 195
-      },
-      {
-        "name": "Tajadas con Pollo",
-        "description": "Plátano verde frito en tajadas doradas con pollo asado a la plancha, repollo encurtido, queso rallado y crema.",
-        "price": 185
-      },
-      {
-        "name": "Almuerzo Típico",
-        "description": "Carne asada, frijoles rojos, arroz blanco, plátanos fritos, queso seco, mantequilla y chimol casero. Todo en una sola mesa.",
-        "price": 210
-      },
-      {
-        "name": "Carne Asada a la Plancha",
-        "description": "Corte de res a la plancha con chimichurri casero, papa al vapor, tajadas fritas y ensalada fresca.",
-        "price": 245
-      },
-      {
-        "name": "Pescado Frito Entero",
-        "description": "Pescado fresco frito entero y crujiente, servido con arroz con coco, tajadas y ensalada de repollo.",
-        "price": 230
-      },
-      {
-        "name": "Chuleta Ahumada",
-        "description": "Chuleta de cerdo ahumada y dorada a la plancha, acompañada de arroz, frijoles fritos, tajadas maduras y ensalada fresca.",
-        "price": 215
-      },
-      {
-        "name": "Baleada Especial",
-        "description": "Tortilla de harina recién hecha rellena de frijoles, huevo, aguacate, queso rallado y carne asada. Servida caliente y abundante.",
-        "price": 145
-      },
-      {
-        "name": "Montuca Hondureña",
-        "description": "Masa de maíz rellena de pollo sazonado, envuelta en tusa y cocida al vapor. Acompañada de mantequilla y queso seco.",
-        "price": 160
-      },
-      {
-        "name": "Enchiladas Hondureñas",
-        "description": "Tortillas fritas cubiertas con carne molida, repollo, salsa de tomate, huevo rallado, queso seco y encurtido casero.",
-        "price": 170
-      },
-      {
-        "name": "Pastelitos de Carne",
-        "description": "Pastelitos de maíz rellenos de carne sazonada y arroz, fritos hasta quedar crujientes y servidos con repollo y salsa casera.",
-        "price": 155
-      },
-      {
-        "name": "Yuca con Chicharrón",
-        "description": "Yuca cocida servida con chicharrón crujiente, curtido de repollo y salsa de tomate natural.",
-        "price": 180
-      },
-      {
-        "name": "Cerdo en Salsa",
-        "description": "Trozos de cerdo cocinados lentamente en salsa criolla de tomate y especias, acompañados de arroz y tajadas fritas.",
-        "price": 225
-      },
-      {
-        "name": "Tapado Costeño",
-        "description": "Platillo tradicional de la costa preparado con mariscos, pescado, plátano y yuca en una cremosa base de leche de coco.",
-        "price": 260
-      },
-      {
-        "name": "Pupusas",
-        "description": "Tres pupusas artesanales recién hechas a elegir entre queso, frijoles, chicharrón o mixtas, servidas con curtido y salsa de tomate casera.",
-        "price": 100
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "slug": "desayunos",
-    "prettyName": "Desayunos",
-    "description": "Empieza el día con el sabor de Honduras.",
-    "plates": [
-      {
-        "name": "Baleada Sencilla",
-        "description": "Tortillas de harina casera rellena de frijoles fritos, mantequilla y queso rallado. Suave, caliente y clásica.",
-        "price": 75
-      },
-      {
-        "name": "Baleada Especial",
-        "description": "Tortillas de harina suave y recién hecha, rellena de frijoles refritos, mantequilla, queso rallado, crema y huevo. La reina del desayuno hondureño.",
-        "price": 95
-      },
-      {
-        "name": "Desayuno Típico",
-        "description": "Huevos al gusto, frijoles refritos, plátanos fritos, queso seco, mantequilla y tortillas de maíz recién hechas.",
-        "price": 120
-      },
-      {
-        "name": "Huevos Rancheros",
-        "description": "Huevos fritos sobre tortilla de maíz con salsa de tomate casera, frijoles y queso rallado.",
-        "price": 110
-      },
-      {
-        "name": "Machuca de Plátano",
-        "description": "Plátano maduro majado con mantequilla y queso, acompañado de huevos revueltos y crema fresca.",
-        "price": 90
-      },
-      {
-        "name": "Catrachitas con Frijoles",
-        "description": "Tortillas fritas cubiertas de frijoles refritos y queso seco rallado. Sencillas, crujientes y adictivas.",
-        "price": 65
-      },
-      {
-        "name": "Tamales con Frijoles",
-        "description": "Tamales de maíz servidos con frijoles fritos, crema artesanal y queso rallado. Un desayuno tradicional y abundante.",
-        "price": 90
-      },
-      {
-        "name": "Plato de Tamalitos de Elote",
-        "description": "Tamalitos de elote suaves y dulces acompañados de crema fresca y queso rallado.",
-        "price": 100
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "slug": "menu-infatil",
-    "prettyName": "Menú Infantil",
-    "description": "Platillos especiales para los más pequeños de la mesa, con los sabores que los niños hondureños conocen y aman.",
-    "plates": [
-      {
-        "name": "Hamburguesa Infantil",
-        "description": "Hamburguesa de carne jugosa con queso derretido, lechuga y tomate en pan suave. Servida con papas fritas.",
-        "price": 120
-      },
-      {
-        "name": "Alitas de Pollo",
-        "description": "Alitas de pollo horneadas y crujientes con salsa BBQ o buffalo al lado. Las favoritas de los más pequeños.",
-        "price": 135
-      },
-      {
-        "name": "Nachos con Queso",
-        "description": "Totopos crujientes bañados en salsa de queso caliente con jalapeños opcionales y crema.",
-        "price": 95
-      },
-      {
-        "name": "Deditos de Pollo",
-        "description": "Tiras de pollo empanizadas y fritas, doradas y crujientes por fuera y jugosas por dentro. Servidas con salsa ranch.",
-        "price": 110
-      },
-      {
-        "name": "Mini Pizza",
-        "description": "Pizza individual con salsa de tomate, queso mozzarella y los toppings favoritos del pequeño.",
-        "price": 125
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "slug": "postres",
-    "prettyName": "Desserts",
-    "description": "End your meal with one of our sweet and delightful desserts.",
-    "plates": [
-      {
-        "name": "Tiramisu",
-        "description": "Classic Italian dessert with layers of mascarpone and coffee-soaked ladyfingers.",
-        "price": 6.5
-      },
-      {
-        "name": "Panna Cotta",
-        "description": "Creamy custard dessert with a berry coulis.",
-        "price": 6
-      },
-      {
-        "name": "Cannoli",
-        "description": "Crispy pastry shells filled with sweet ricotta cream.",
-        "price": 5.5
-      },
-      {
-        "name": "Gelato",
-        "description": "Choice of two scoops of our homemade Italian ice cream.",
-        "price": 4.5
-      },
-      {
-        "name": "Affogato",
-        "description": "Vanilla gelato topped with a shot of espresso.",
-        "price": 5.5
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "slug": "beverages",
-    "prettyName": "Beverages",
-    "description": "Refresh yourself with our selection of drinks.",
-    "plates": [
-      {
-        "name": "Sparkling Water",
-        "description": "Chilled sparkling mineral water.",
-        "price": 2.5
-      },
-      {
-        "name": "Still Water",
-        "description": "Chilled still mineral water.",
-        "price": 2
-      },
-      {
-        "name": "Espresso",
-        "description": "Strong Italian coffee shot.",
-        "price": 2.5
-      },
-      {
-        "name": "Cappuccino",
-        "description": "Espresso with steamed milk and foam.",
-        "price": 3.5
-      },
-      {
-        "name": "Lemonade",
-        "description": "Fresh homemade lemonade.",
-        "price": 3
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "slug": "wines",
-    "prettyName": "Wines",
-    "description": "Choose from our curated list of fine wines.",
-    "plates": [
-      {
-        "name": "Chianti",
-        "description": "Classic red wine from Tuscany.",
-        "price": 6.5
-      },
-      {
-        "name": "Pinot Grigio",
-        "description": "Crisp and refreshing white wine.",
-        "price": 6
-      },
-      {
-        "name": "Prosecco",
-        "description": "Sparkling wine from Veneto.",
-        "price": 7
-      },
-      {
-        "name": "Barolo",
-        "description": "Full-bodied red wine from Piedmont.",
-        "price": 9
-      },
-      {
-        "name": "Rosé",
-        "description": "Light and fruity wine perfect for any meal.",
-        "price": 6.5
-      }
-    ]
-  }
+	{
+		"id": 1,
+		"slug": "entradas",
+		"prettyName": "Entradas",
+		"description": "Comienza tu experiencia con una de nuestras entradas, pequeños bocados con todo el sabor de Honduras.",
+		"plates": [
+			{
+				"name": "Anafre Hondureño",
+				"description": "Frijoles refritos con chorizo y mantequilla servidos en anafre de barro, acompañado de totopos y tortillas de maíz recién hechas.",
+				"price": 180
+			},
+			{
+				"name": "Ceviche de Camarón",
+				"description": "Camarones frescos marinados en limón con cebolla morada, culantro, tomate y chile. Servido con tostadas crujientes.",
+				"price": 195
+			},
+			{
+				"name": "Tabla de Quesos Artesanales",
+				"description": "Selección de quesos hondureños artesanales con jaleas de frutas tropicales, pan tostado y miel de caña.",
+				"price": 210
+			},
+			{
+				"name": "Camarones al Ajillo",
+				"description": "Camarones salteados en mantequilla, ajo y vino blanco, servidos con pan rústico para acompañar la salsa.",
+				"price": 225
+			},
+			{
+				"name": "Cóctel de Camarones",
+				"description": "Camarones frescos en salsa rosada con aguacate, cebolla morada, culantro y limón. Servido frío con tostadas crujientes.",
+				"price": 195
+			},
+			{
+				"name": "Sopa de Tortilla",
+				"description": "Caldo suave con tiras de tortilla tostada, crema, queso seco, aguacate y chile pasilla. Reconfortante y llena de sabor.",
+				"price": 150
+			},
+			{
+				"name": "Montaditos de Baleada Gourmet",
+				"description": "Mini baleadas de harina artesanal rellenas de frijoles negros, queso brie, jamón serrano y un toque de miel de caña.",
+				"price": 175
+			},
+			{
+				"name": "Enchiladas Hondureñas",
+				"description": "Tortillas fritas cubiertas de carne molida, ensalada fresca, queso rallado, crema y salsa de tomate casera.",
+				"price": 160
+			}
+		]
+	},
+	{
+		"id": 2,
+		"slug": "ensaladas",
+		"prettyName": "Ensaladas",
+		"description": "Frescura y sabor en cada tenedor. Ensaladas preparadas con ingredientes de temporada y aderezos caseros.",
+		"plates": [
+			{
+				"name": "Caesar Salad",
+				"description": "Lechuga romana crocante con queso parmesano, crutones dorados y aderezo caesar casero.",
+				"price": 145
+			},
+			{
+				"name": "Ensalada de Aguacate y Tomate",
+				"description": "Aguacate maduro, tomate fresco, cebolla morada, culantro y limón. Simple, fresca y completamente hondureña.",
+				"price": 130
+			},
+			{
+				"name": "Ensalada Tropical",
+				"description": "Mix de hojas verdes con mango, piña, zanahoria rallada, semillas de ajonjolí y aderezo de maracuyá.",
+				"price": 150
+			},
+			{
+				"name": "Ensalada de Palmito",
+				"description": "Palmito en láminas con tomate cherry, pepino, aceitunas y vinagreta de limón y hierbas frescas.",
+				"price": 160
+			},
+			{
+				"name": "Ensalada Caprese",
+				"description": "Mozzarella fresca, tomate y albahaca con reducción de balsámico y aceite de oliva.",
+				"price": 155
+			}
+		]
+	},
+	{
+		"id": 3,
+		"slug": "Sopas",
+		"prettyName": "Sopas",
+		"description": "Sopas preparadas a fuego lento con ingredientes frescos y recetas de toda la vida. El tipo de plato que reconforta el alma.",
+		"plates": [
+			{
+				"name": "Sopa de Res",
+				"description": "Caldo de res cocinado a fuego lento con papa, yuca, elote, güisquil y hierbas frescas. Servida con tortillas de maíz y chile al lado.",
+				"price": 175
+			},
+			{
+				"name": "Sopa de Caracol",
+				"description": "Sopa tradicional de la costa hondureña con caracol, leche de coco, yuca y plátano. Cremosa, profunda y reconfortante.",
+				"price": 210
+			},
+			{
+				"name": "Capirotada Hondureña",
+				"description": "Sopa tradicional hondureña preparada con tortitas de queso y huevo cocidas en un caldo de tomate y especias, acompañada de papa, yuca, repollo y hierbas frescas. Casera, abundante y llena de sabor.",
+				"price": 165
+			},
+			{
+				"name": "Sopa Marinera",
+				"description": "Caldo de mariscos con camarones, pescado, almejas y cangrejo, cocinado con tomate, culantro y leche de coco.",
+				"price": 225
+			},
+			{
+				"name": "Sopa de Pollo",
+				"description": "Caldo suave de pollo con papa, zanahoria, elote, apio y hierbas frescas. La sopa que cura cualquier cosa.",
+				"price": 155
+			}
+		]
+	},
+	{
+		"id": 4,
+		"slug": "platos-principales",
+		"prettyName": "Platos Principales",
+		"description": "Platos preparados con ingredientes frescos y recetas de siempre, el corazón de nuestra cocina hondureña.",
+		"plates": [
+			{
+				"name": "Pollo Chuco",
+				"description": "Piezas de pollo frito y crujiente servidas sobre tajadas de plátano, acompañadas de encurtido, chimol fresco y aderezo de mayonesa.",
+				"price": 195
+			},
+			{
+				"name": "Tajadas con Pollo",
+				"description": "Plátano verde frito en tajadas doradas con pollo asado a la plancha, repollo encurtido, queso rallado y crema.",
+				"price": 185
+			},
+			{
+				"name": "Almuerzo Típico",
+				"description": "Carne asada, frijoles rojos, arroz blanco, plátanos fritos, queso seco, mantequilla y chimol casero. Todo en una sola mesa.",
+				"price": 210
+			},
+			{
+				"name": "Carne Asada a la Plancha",
+				"description": "Corte de res a la plancha con chimichurri casero, papa al vapor, tajadas fritas y ensalada fresca.",
+				"price": 245
+			},
+			{
+				"name": "Pescado Frito Entero",
+				"description": "Pescado fresco frito entero y crujiente, servido con arroz con coco, tajadas y ensalada de repollo.",
+				"price": 230
+			},
+			{
+				"name": "Chuleta Ahumada",
+				"description": "Chuleta de cerdo ahumada y dorada a la plancha, acompañada de arroz, frijoles fritos, tajadas maduras y ensalada fresca.",
+				"price": 215
+			},
+			{
+				"name": "Baleada Especial",
+				"description": "Tortilla de harina recién hecha rellena de frijoles, huevo, aguacate, queso rallado y carne asada. Servida caliente y abundante.",
+				"price": 145
+			},
+			{
+				"name": "Montuca Hondureña",
+				"description": "Masa de maíz rellena de pollo sazonado, envuelta en tusa y cocida al vapor. Acompañada de mantequilla y queso seco.",
+				"price": 160
+			},
+			{
+				"name": "Enchiladas Hondureñas",
+				"description": "Tortillas fritas cubiertas con carne molida, repollo, salsa de tomate, huevo rallado, queso seco y encurtido casero.",
+				"price": 170
+			},
+			{
+				"name": "Pastelitos de Carne",
+				"description": "Pastelitos de maíz rellenos de carne sazonada y arroz, fritos hasta quedar crujientes y servidos con repollo y salsa casera.",
+				"price": 155
+			},
+			{
+				"name": "Yuca con Chicharrón",
+				"description": "Yuca cocida servida con chicharrón crujiente, curtido de repollo y salsa de tomate natural.",
+				"price": 180
+			},
+			{
+				"name": "Cerdo en Salsa",
+				"description": "Trozos de cerdo cocinados lentamente en salsa criolla de tomate y especias, acompañados de arroz y tajadas fritas.",
+				"price": 225
+			},
+			{
+				"name": "Tapado Costeño",
+				"description": "Platillo tradicional de la costa preparado con mariscos, pescado, plátano y yuca en una cremosa base de leche de coco.",
+				"price": 260
+			},
+			{
+				"name": "Pupusas",
+				"description": "Tres pupusas artesanales recién hechas a elegir entre queso, frijoles, chicharrón o mixtas, servidas con curtido y salsa de tomate casera.",
+				"price": 100
+			}
+		]
+	},
+	{
+		"id": 5,
+		"slug": "desayunos",
+		"prettyName": "Desayunos",
+		"description": "Empieza el día con el sabor de Honduras.",
+		"plates": [
+			{
+				"name": "Baleada Sencilla",
+				"description": "Tortillas de harina casera rellena de frijoles fritos, mantequilla y queso rallado. Suave, caliente y clásica.",
+				"price": 75
+			},
+			{
+				"name": "Baleada Especial",
+				"description": "Tortillas de harina suave y recién hecha, rellena de frijoles refritos, mantequilla, queso rallado, crema y huevo. La reina del desayuno hondureño.",
+				"price": 95
+			},
+			{
+				"name": "Desayuno Típico",
+				"description": "Huevos al gusto, frijoles refritos, plátanos fritos, queso seco, mantequilla y tortillas de maíz recién hechas.",
+				"price": 120
+			},
+			{
+				"name": "Huevos Rancheros",
+				"description": "Huevos fritos sobre tortilla de maíz con salsa de tomate casera, frijoles y queso rallado.",
+				"price": 110
+			},
+			{
+				"name": "Machuca de Plátano",
+				"description": "Plátano maduro majado con mantequilla y queso, acompañado de huevos revueltos y crema fresca.",
+				"price": 90
+			},
+			{
+				"name": "Catrachitas con Frijoles",
+				"description": "Tortillas fritas cubiertas de frijoles refritos y queso seco rallado. Sencillas, crujientes y adictivas.",
+				"price": 65
+			},
+			{
+				"name": "Tamales con Frijoles",
+				"description": "Tamales de maíz servidos con frijoles fritos, crema artesanal y queso rallado. Un desayuno tradicional y abundante.",
+				"price": 90
+			},
+			{
+				"name": "Plato de Tamalitos de Elote",
+				"description": "Tamalitos de elote suaves y dulces acompañados de crema fresca y queso rallado.",
+				"price": 100
+			}
+		]
+	},
+	{
+		"id": 6,
+		"slug": "menu-infatil",
+		"prettyName": "Menú Infantil",
+		"description": "Platillos especiales para los más pequeños de la mesa, con los sabores que los niños hondureños conocen y aman.",
+		"plates": [
+			{
+				"name": "Hamburguesa Infantil",
+				"description": "Hamburguesa de carne jugosa con queso derretido, lechuga y tomate en pan suave. Servida con papas fritas.",
+				"price": 120
+			},
+			{
+				"name": "Alitas de Pollo",
+				"description": "Alitas de pollo horneadas y crujientes con salsa BBQ o buffalo al lado. Las favoritas de los más pequeños.",
+				"price": 135
+			},
+			{
+				"name": "Nachos con Queso",
+				"description": "Totopos crujientes bañados en salsa de queso caliente con jalapeños opcionales y crema.",
+				"price": 95
+			},
+			{
+				"name": "Deditos de Pollo",
+				"description": "Tiras de pollo empanizadas y fritas, doradas y crujientes por fuera y jugosas por dentro. Servidas con salsa ranch.",
+				"price": 110
+			},
+			{
+				"name": "Mini Pizza",
+				"description": "Pizza individual con salsa de tomate, queso mozzarella y los toppings favoritos del pequeño.",
+				"price": 125
+			}
+		]
+	},
+	{
+		"id": 7,
+		"slug": "postres",
+		"prettyName": "Postres",
+		"description": "El final perfecto para una buena comida.",
+		"plates": [
+			{
+				"name": "Cheesecake de Maracuyá",
+				"description": "Cheesecake cremoso sobre base de galleta con coulis de maracuyá fresco. Un clásico con toque tropical hondureño.",
+				"price": 115
+			},
+			{
+				"name": "Ayote en Miel",
+				"description": "Ayote cocido lentamente en miel de panela con canela y clavo de olor.",
+				"price": 75
+			},
+			{
+				"name": "Torrejas en Miel",
+				"description": "Torrejas tradicionales bañadas en miel de rapadura con canela y clavo de olor.",
+				"price": 85
+			},
+			{
+				"name": "Arroz con Leche",
+				"description": "Arroz cremoso cocido en leche con canela, vainilla y un toque de ralladura de limón. Casero y reconfortante.",
+				"price": 80
+			},
+			{
+				"name": "Tres Leches",
+				"description": "Bizcocho esponjoso empapado en tres tipos de leche, cubierto de crema batida y canela. Un favorito que nunca falla.",
+				"price": 105
+			},
+			{
+				"name": "Rosquillas en Miel",
+				"description": "Rosquillas tradicionales servidas con miel casera de dulce de panela y especias.",
+				"price": 70
+			}
+		]
+	},
+	{
+		"id": 8,
+		"slug": "bebidas",
+		"prettyName": "Bebidas",
+		"description": "Bebidas frías y calientes para acompañar cada momento de tu visita.",
+		"plates": [
+			{
+				"name": "Refrescos",
+				"description": "Coca-Cola, Pepsi, Sprite, Fanta o agua tónica.",
+				"price": 45
+			},
+			{
+				"name": "Agua",
+				"description": "Agua purificada, con o sin gas.",
+				"price": 30
+			},
+			{
+				"name": "Jugo Natural",
+				"description": "Jugos frescos del día: tamarindo, limonada, jamaica, maracuyá, mora, sandía o melón. Preparados al momento sin conservantes.",
+				"price": 65
+			},
+			{
+				"name": "Café Negro",
+				"description": "Café hondureño recién colado, puro y sin aditivos. Servido caliente.",
+				"price": 40
+			},
+			{
+				"name": "Café con Leche",
+				"description": "Café hondureño con leche caliente al gusto. Suave y reconfortante.",
+				"price": 50
+			},
+			{
+				"name": "Capuchino",
+				"description": "Espresso con leche vaporizada y espuma. Cremoso y aromático.",
+				"price": 75
+			},
+			{
+				"name": "Té",
+				"description": "Selección de tés calientes o fríos: manzanilla, menta, jengibre con limón o canela.",
+				"price": 45
+			}
+		]
+	},
+	{
+		"id": 9,
+		"slug": "bebidas-alcholicas",
+		"prettyName": "La Barra",
+		"description": "Para los que quieren acompañar su comida con algo más.",
+		"plates": [
+			{
+				"name": "Cerveza Nacional",
+				"description": "Cerveza hondureña bien fría a elegir entre Salva Vida, Port Royal o Imperial. Perfecta para acompañar cualquier platillo típico.",
+				"price": 65
+			},
+			{
+				"name": "Michelada Catracha",
+				"description": "Cerveza preparada con limón, sal, salsa inglesa, chile y un toque especial de la casa. Refrescante y con buen carácter.",
+				"price": 95
+			},
+			{
+				"name": "Guifiti Garífuna",
+				"description": "Bebida tradicional garífuna preparada con hierbas naturales y aguardiente. Intensa, artesanal y muy conocida en la costa norte.",
+				"price": 140
+			},
+			{
+				"name": "Ron con Coca-Cola",
+				"description": "Ron hondureño servido con hielo y gaseosa cola. Una combinación clásica y sencilla.",
+				"price": 110
+			},
+			{
+				"name": "Ron Flor de Caña",
+				"description": "Copa de ron añejo servida sola o con hielo, ideal para disfrutar después de una buena comida.",
+				"price": 125
+			},
+			{
+				"name": "Cóctel Tropical Catracho",
+				"description": "Mezcla refrescante de licor, jugos tropicales y frutas frescas como maracuyá, piña o mango.",
+				"price": 135
+			},
+			{
+				"name": "Margarita de Maracuyá",
+				"description": "Tequila mezclado con maracuyá natural, limón y hielo frappé. Dulce, cítrica y refrescante.",
+				"price": 145
+			},
+			{
+				"name": "Vino Tinto",
+				"description": "Copa de vino tinto seleccionada para acompañar carnes asadas y platos fuertes de la casa.",
+				"price": 120
+			},
+			{
+				"name": "Vino Blanco",
+				"description": "Vino blanco fresco y ligero, ideal para mariscos, pescado frito y sopas costeñas.",
+				"price": 115
+			}
+		]
+	}
 ]
