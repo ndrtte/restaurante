@@ -13,76 +13,99 @@ import PizzaHero from "~/assets/images/pizza-hero.png";
 ---
 
 <Layout>
-	<Section class:list={"bg-white"}>
-		<Hero>
-			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="il ristorante italiana" />
-				<h1 class="font-black">Real Italian food in a real Italian restaurant...</h1>
+  <Section class:list={"bg-white"}>
+    <Hero>
+      <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
+        <Badge title="El sabor hondureño de verdad" />
+        <h1 class="font-black">Donde cada bocado cuenta una historia.</h1>
 
-				<p>
-					Experience the taste of Italy with our authentic dishes made from the finest ingredients. Indulge in
-					our wide variety of pizzas, pastas, and desserts, all crafted with love and tradition. Whether
-					you're dining in or taking out, we promise a memorable culinary experience.
-				</p>
+        <p>
+          Hoy, Sabores del Valle es más que un restaurante. Es el lugar donde
+          las familias celebran, donde los amigos se reencuentran y donde
+          cualquier extraño puede sentarse a la mesa y sentirse en casa.
+        </p>
 
-				<span class="text-brand-green font-medium">✔ We also deliver</span>
+        <span class="text-brand-green font-medium"
+          >✔ También hacemos entregas</span
+        >
 
-				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="/book">Book now</Button>
-					<ButtonCallUs />
-				</div>
-			</div>
-			<div slot="hero-content-right">
-				<Picture
-					class:list={"mx-auto"}
-					src={PizzaHero}
-					height={600}
-					formats={["avif", "webp"]}
-					alt="A description of my image."
-					loading={"eager"}
-					fetchpriority={"high"}
-				/>
-			</div>
-		</Hero>
-	</Section>
+        <div class="mt-8 flex items-center gap-x-8">
+          <Button url="/book">Reserva ahora</Button>
+          <ButtonCallUs />
+        </div>
+      </div>
+      <div slot="hero-content-right">
+        <Picture
+          class:list={"mx-auto"}
+          src={PizzaHero}
+          height={600}
+          formats={["avif", "webp"]}
+          alt="A description of my image."
+          loading={"eager"}
+          fetchpriority={"high"}
+        />
+      </div>
+    </Hero>
+  </Section>
 
-	<Section class:list={'bg-white'}>
-		<Article>
-			<h2>Welcome to AstroPie</h2>
-			<p>
-				Nestled in the heart of the city, <strong>AstroPie</strong> offers an authentic Italian dining experience
-				like no other. From the moment you step through our doors, you'll be transported to the vibrant streets of
-				Italy, where good food and great company are at the center of life.
-			</p>
+  <Section class:list={"bg-white"}>
+    <Article>
+      <h2>Bienvenido a Sabores del Valle</h2>
+      <p>
+        Ubicados en el corazón de Tegucigalpa, <strong>Sabores del Valle</strong
+        > ofrece una experiencia gastronómica hondureña auténtica como ninguna otra.
+        Desde el momento en que cruzas nuestras puertas, te envuelve el aroma de la
+        cocina de siempre, donde la buena comida y la compañía que importa son el
+        centro de todo.
+      </p>
 
-			<h3>Our Story</h3>
-			<p>
-				Founded in <em>1998</em>, our family-owned restaurant has always been a labor of love. Inspired by the
-				recipes passed down through generations, we bring the <u>rich culinary heritage</u> of Italy to your plate.
-				Every dish tells a story, and every meal is a celebration of flavor.
-			</p>
+      <h3>Nuestra Historia</h3>
+      <p>
+        Fundado en <em>2005</em>, nuestro restaurante familiar nació de una
+        cocina pequeña y un amor enorme por la comida de siempre. Inspirados en
+        las recetas que pasaron de mano en mano a través de generaciones,
+        llevamos la <u>rica herencia culinaria</u> de Honduras directamente a tu mesa.
+        Cada platillo cuenta una historia, y cada comida es una celebración del sabor
+        de nuestra tierra.
+      </p>
 
-			<h3>Our Philosophy</h3>
-			<blockquote>"The secret ingredient is always love."</blockquote>
-			<p>
-				At AstroPie, we believe in the simple joy of fresh ingredients, time-honored techniques, and a
-				passion for creating memorable meals. From our hand-rolled pasta to our wood-fired pizzas, every bite is
-				crafted with care.
-			</p>
+      <h3>Nuestra Filosofía</h3>
+      <blockquote>"Tradición, sabor y comida hecha como debe ser."</blockquote>
+      <p>
+        En Sabores del Valle nos enfocamos en preparar comida típica hondureña
+        con recetas tradicionales, ingredientes frescos y el sabor auténtico de
+        siempre. Sin excesos, solo buena comida hecha con cuidado.
+      </p>
 
-			<h4>What Makes Us Special?</h4>
-			<ul>
-				<li><strong>Authenticity:</strong> Traditional recipes, just like Nonna used to make.</li>
-				<li><strong>Fresh Ingredients:</strong> Locally sourced produce and imported Italian staples.</li>
-				<li><strong>Warm Atmosphere:</strong> A place where everyone feels like family.</li>
-			</ul>
+      <h4>¿Qué Nos Hace Especiales?</h4>
+      <ul>
+        <li>
+          <strong>Sabor Catracho:</strong> Recetas tradicionales hondureñas preparadas
+          con el sabor de siempre.
+        </li>
+        <li>
+          <strong>Ingredientes Frescos:</strong> Verduras, carnes y productos seleccionados
+          diariamente para mantener la calidad en cada plato.
+        </li>
+        <li>
+          <strong>Comida Casera:</strong> Tortillas recién hechas, frijoles cocidos
+          a fuego lento y platillos preparados al momento.
+        </li>
+        <li>
+          <strong>Ambiente Familiar:</strong> Un espacio cómodo y cercano para compartir
+          buena comida y buenos momentos.
+        </li>
+      </ul>
 
-			<h3>Join Us</h3>
-			<p>
-				Whether you're celebrating a special occasion or simply indulging in the pleasures of Italian cuisine, <strong
-					>AstroPie</strong
-				> is the perfect destination. <em>Come for the food, stay for the memories.</em>
-			</p>
-		</Article>
-	</Section>
+      <h3>Visítanos</h3>
+      <p>
+        Ya sea para compartir en familia, disfrutar un almuerzo típico o
+        simplemente quitarse el antojo de buena comida hondureña, <strong
+          >Sabores del Valle</strong
+        >
+        siempre tiene un lugar en la mesa para ti.
+        <em>Buen sabor, ambiente familiar y comida hecha como en casa.</em>
+      </p>
+    </Article>
+  </Section>
 </Layout>
