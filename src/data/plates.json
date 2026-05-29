@@ -150,11 +150,6 @@
 				"price": 215
 			},
 			{
-				"name": "Baleada Especial",
-				"description": "Tortilla de harina recién hecha rellena de frijoles, huevo, aguacate, queso rallado y carne asada. Servida caliente y abundante.",
-				"price": 145
-			},
-			{
 				"name": "Montuca Hondureña",
 				"description": "Masa de maíz rellena de pollo sazonado, envuelta en tusa y cocida al vapor. Acompañada de mantequilla y queso seco.",
 				"price": 160
