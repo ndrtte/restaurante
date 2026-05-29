@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:wght@700;900&display=swap");
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
 @theme {
-	--font-inter: "Inter", "sans-serif";
-	--color-brand-green: #157f71;
-	--color-brand-red: #db1d00;
+	--font-lato: "Lato", sans-serif;
+	--font-playfair: "Playfair Display", serif;
+	--color-brand-cream: #f5efe6;
+	--color-brand-coffee: #3b2a24;
+	--color-brand-terracotta: #a65a3a;
+	--color-brand-green: #6b7a56;
+	--color-brand-beige: #d8b98a;
+	--color-brand-gold: #c4973a;
 }
 
 @utility container {
@@ -116,11 +122,11 @@
 
 html,
 body {
-	@apply h-full antialiased scroll-smooth;
+	@apply h-full antialiased scroll-smooth bg-brand-cream;
 }
 
 body {
-	@apply h-full scroll-smooth font-inter text-gray-700;
+	@apply h-full scroll-smooth font-lato text-brand-coffee;
 }
 
 h1,
@@ -129,7 +135,7 @@ h3,
 h4,
 h5,
 h6 {
-	@apply font-bold text-balance wrap-break-word;
+	@apply font-playfair font-bold text-balance wrap-break-word text-brand-coffee;
 }
 
 h1,
@@ -167,15 +173,15 @@ p {
 }
 
 .button {
-	@apply rounded-full px-4 py-3 text-base transition duration-300 font-bold shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2;
+	@apply rounded-xl px-5 py-3 text-base font-bold transition duration-300 shadow-[0_4px_16px_rgba(59,42,36,0.08)] focus-visible:outline-2 focus-visible:outline-offset-2;
 }
 
 .button-green {
-	@apply bg-brand-green hover:bg-brand-green/80 text-white focus-visible:outline-brand-green;
+	@apply bg-brand-terracotta text-brand-cream hover:bg-brand-gold focus-visible:outline-brand-terracotta;
 }
 
 .button-red {
-	@apply bg-brand-red hover:bg-brand-red/80 text-white focus-visible:outline-brand-red;
+	@apply bg-brand-gold text-brand-coffee hover:bg-brand-beige focus-visible:outline-brand-gold;
 }
 
 .menu-item-highlighted.menu-item-highlighted {
@@ -202,16 +208,16 @@ section.bg-brand-red + section.bg-brand-red > .container {
 
 input,
 textarea {
-	@apply border border-gray-300 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-brand-green;
+	@apply w-full rounded-xl border border-brand-beige bg-brand-cream/80 px-4 py-3 text-brand-coffee shadow-sm transition placeholder:text-brand-green/70 focus:border-brand-terracotta focus:outline-none focus:ring-2 focus:ring-brand-terracotta/25;
 }
 
 label {
-	@apply block text-sm/6 font-medium;
+	@apply block text-sm/6 font-bold text-brand-coffee;
 }
 
 /* Swiper */
 .swiper-pagination-bullet-active.swiper-pagination-bullet-active {
-	@apply bg-brand-red;
+	@apply bg-brand-terracotta;
 }
 
 /* inter-300 - latin */

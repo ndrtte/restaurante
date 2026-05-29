@@ -14,7 +14,9 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 	<div class="container py-6">
 		<nav class="flex items-center justify-between" aria-label="Global">
 			<a href="/" class="-m-1.5 p-1.5">
-				<p class="font-bold text-4xl text-brand-green">Astro<span class="text-brand-red bg-brand-red/5 px-3 ml-1 rounded-lg">Pie</span></p>
+				<p class="font-black text-4xl text-brand-coffee">
+					Astro<span class="text-brand-terracotta bg-brand-terracotta/10 px-3 ml-1 rounded-lg">Pie</span>
+				</p>
 			</a>
 			<div class="flex lg:hidden">
 				<button
@@ -24,7 +26,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 				>
 					<span class="sr-only">Open main menu</span>
 					<svg
-						class="size-8 text-brand-green"
+						class="size-8 text-brand-coffee"
 						fill="none"
 						viewBox="0 0 24 24"
 						stroke-width="1.5"
@@ -44,7 +46,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 					menuMain.map((item) => (
 						<a
 							href={item.url}
-							class={`transition text-base/6 font-semibold hover:text-brand-green ${item.highlighted ? "menu-item-highlighted" : ""} ${pathname === item.url ? "menu-item-active" : ""}`}
+							class={`transition text-base/6 font-semibold hover:text-brand-terracotta ${item.highlighted ? "menu-item-highlighted" : ""} ${pathname === item.url ? "menu-item-active" : ""}`}
 						>
 							{item.name}
 						</a>
@@ -54,7 +56,7 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 		</nav>
 		<div class="lg:hidden" x-ref="dialog" x-show="open" x-cloak aria-modal="true">
 			<div
-				class="fixed inset-0 z-50 w-full overflow-y-auto bg-white px-8 py-6"
+				class="fixed inset-0 z-50 w-full overflow-y-auto bg-brand-cream px-8 py-6"
 				x-show="open"
 				x-transition:enter="transition ease-out"
 				x-transition:enter-start="opacity-0"
@@ -66,9 +68,9 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 			>
 				<div class="flex items-center justify-between">
 					<a href="/" class="-m-1.5 p-1.5">
-						<p class="font-bold text-4xl text-brand-green">Astro<span class="text-brand-red">Pie</span></p>
+						<p class="font-black text-4xl text-brand-coffee">Astro<span class="text-brand-terracotta">Pie</span></p>
 					</a>
-					<button type="button" class="-m-2.5 p-2.5 text-brand-red" @click="open = false">
+					<button type="button" class="-m-2.5 p-2.5 text-brand-terracotta" @click="open = false">
 						<span class="sr-only">Close menu</span>
 						<svg
 							class="size-8"
@@ -84,14 +86,14 @@ const pathname = rmTrailingSlash(Astro.url.pathname);
 					</button>
 				</div>
 				<div class="mt-6 flow-root">
-					<div class="-my-6 divide-y divide-gray-500/10">
+					<div class="-my-6 divide-y divide-brand-beige/40">
 						<div class="space-y-2 py-6 mt-16">
 							{
 								menuMain.map((item) => (
 									<a
 										@click="open = false"
 										href={item.url}
-										class={`block py-2 text-center font-semibold text-3xl ${item.highlighted ? "menu-item-highlighted w-max mx-auto !px-8 !py-2" : ""} ${pathname === item.url ? "menu-item-active" : ""}`}
+										class={`block py-2 text-center font-semibold text-3xl ${item.highlighted ? "menu-item-highlighted w-max mx-auto !px-8 !py-2" : "text-brand-coffee"} ${pathname === item.url ? "menu-item-active" : ""}`}
 									>
 										{item.name}
 									</a>
