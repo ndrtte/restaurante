@@ -63,30 +63,40 @@ import Mussels from "~/assets/images/mussels2.png";
     <WideImage
       image={DecorativeImage}
       alt="Just an image"
-      class:list={"aspect-video lg:aspect-[16/6]"}
+      class:list={"aspect-video lg:aspect-16/6"}
     />
 
     <div
-      class="absolute inset-0 bg-[#3B2A24]/50 flex flex-col items-center justify-center px-6"
+      class="absolute inset-0 bg-[#3B2A24]/70 flex flex-col items-center justify-center px-4 sm:px-6"
     >
-      <h2 class="font-black !text-white text-4xl mb-2">Horarios de atención</h2>
-      <p class="!text-[#D8B98A] font-medium mb-10">
+      <h2 class="font-black text-white! text-2xl sm:text-4xl mb-2 text-center">
+        Horarios de atención
+      </h2>
+      <p
+        class="text-[#D8B98A] font-medium mb-6 sm:mb-10 text-center text-sm sm:text-base"
+      >
         Siempre listos para recibirte
       </p>
 
-      <div class="flex flex-col sm:flex-row gap-4 w-full max-w-3xl">
+      <div class="flex flex-col sm:flex-row gap-3 w-full max-w-3xl">
         <div
-          class="flex-1 bg-white/10 backdrop-blur-sm rounded-xl px-10 py-7 flex justify-between items-center"
+          class="flex-1 bg-white/10 backdrop-blur-sm rounded-xl px-4 sm:px-10 py-5 sm:py-7 flex justify-between items-center"
         >
-          <h3 class="!text-white font-bold text-lg">Lunes a Sábado</h3>
-          <p class="text-2xl font-black text-[#D8B98A]">07:00 — 21:00</p>
+          <h3 class="text-white! font-bold text-sm sm:text-lg">
+            Lunes a Sábado
+          </h3>
+          <p class="text-lg sm:text-2xl font-black text-[#D8B98A]">
+            07:00 — 21:00
+          </p>
         </div>
 
         <div
-          class="flex-1 bg-white/10 backdrop-blur-sm rounded-xl px-10 py-7 flex justify-between items-center"
+          class="flex-1 bg-white/10 backdrop-blur-sm rounded-xl px-4 sm:px-10 py-5 sm:py-7 flex justify-between items-center"
         >
-          <h3 class="!text-white font-bold text-lg">Domingo</h3>
-          <p class="text-2xl font-black text-[#D8B98A]">08:00 — 15:00</p>
+          <h3 class="text-white! font-bold text-sm sm:text-lg">Domingo</h3>
+          <p class="text-lg sm:text-2xl font-black text-[#D8B98A]">
+            08:00 — 15:00
+          </p>
         </div>
       </div>
     </div>
@@ -212,7 +222,7 @@ import Mussels from "~/assets/images/mussels2.png";
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
         <Badge color="red" title="Delicioso" />
-        <h2 class="font-black h2 !my-4">Plato de la semana</h2>
+        <h2 class="font-black h2 my-4!">Plato de la semana</h2>
 
         <span class="text-brand-red text-2xl font-bold italic">
           Pollo Chuco
@@ -301,7 +311,7 @@ import Mussels from "~/assets/images/mussels2.png";
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none order-2">
         <Badge title="Dulces" />
-        <h2 slot="heading-title" class="font-black text-brand-green h2 !my-4">
+        <h2 slot="heading-title" class="font-black text-brand-green h2 my-4!">
           Postres
         </h2>
         <div slot="heading-content">
@@ -340,7 +350,7 @@ import Mussels from "~/assets/images/mussels2.png";
     <Hero>
       <div slot="hero-content-left" class="prose max-w-none">
         <Badge color="red" title="Bienvenido" />
-        <h2 slot="heading-title" class="font-black text-brand-red h2 !my-4">
+        <h2 slot="heading-title" class="font-black text-brand-red h2 my-4!">
           ¡Pasa por aquí!
         </h2>
         <div slot="heading-content">
